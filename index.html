@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="LPS Company - selector de empresas para Luciano Wash y próximas divisiones."
+      content="LPS Company - hub central para Snackería, Luciano Wash y futuras divisiones empresariales."
     />
     <meta name="theme-color" content="#061827" />
     <meta property="og:title" content="LPS Company" />
@@ -47,77 +47,64 @@
           lps-company.com
         </a>
 
-        <div class="signal-row" aria-label="Información rápida">
-          <span>Grupo empresarial</span>
-          <span>Snackerías</span>
-          <span>Luciano Wash</span>
-        </div>
+        <section class="system-map" aria-label="Mapa de LPS Company">
+          <div class="map-kicker">
+            <span>Página inicial central</span>
+            <span>Core corporativo</span>
+          </div>
 
-        <div class="portfolio-header">
-          <span>Portafolio</span>
-          <span>Selecciona una unidad</span>
-        </div>
-
-        <div class="company-list" aria-label="Empresas de LPS Company">
-          <article class="company-item company-item-primary">
-            <div class="company-copy">
-              <span class="status-pill active">EN / DO</span>
-              <h2>Luciano Wash</h2>
-              <p>
-                Limpieza profesional para autos, hogares, negocios y exteriores.
-              </p>
-              <div class="company-tags" aria-label="Servicios de Luciano Wash">
-                <span>Cotizar USA</span>
-                <span>Autos</span>
-              </div>
-            </div>
-            <a
-              class="action-button"
-              href="https://ycastillog.github.io/LucianoWash/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Entrar a Luciano Wash"
-            >
-              <span>Entrar</span>
-              <span aria-hidden="true">→</span>
-            </a>
-          </article>
-
-          <article class="company-item">
-            <div class="company-copy">
+          <div class="map-grid">
+            <article class="division-node snackeria-node">
               <span class="status-pill">DO</span>
               <h2>Snackería</h2>
-              <p>Máquinas expendedoras de snacks y bebidas para ubicaciones comerciales.</p>
-              <div class="company-tags muted-tags" aria-label="Funciones futuras de Snackería">
-                <span>Mapa</span>
-                <span>QR</span>
-                <span>Puntos</span>
-              </div>
-            </div>
-            <a
-              class="action-button muted-link"
-              href="mailto:snackeria@lps-company.com?subject=Información%20Snackería"
-              aria-label="Contactar Snackería"
-            >
-              <span>Contactar</span>
-            </a>
-          </article>
-        </div>
+              <p>Máquinas expendedoras conectadas a ubicaciones comerciales.</p>
+              <ul class="node-list">
+                <li>Mapa interactivo de ubicaciones</li>
+                <li>QR directo a la página web</li>
+                <li>Puntos para clientes frecuentes</li>
+              </ul>
+              <a
+                class="node-link"
+                href="mailto:snackeria@lps-company.com?subject=Información%20Snackería"
+              >
+                snackeria@lps-company.com
+              </a>
+            </article>
 
-        <div class="email-hub" aria-label="Correos de LPS Company">
-          <a href="mailto:info@lps-company.com">
-            <span>Central</span>
-            <strong>info@lps-company.com</strong>
-          </a>
-          <a href="mailto:lwash@lps-company.com">
-            <span>Wash</span>
-            <strong>lwash@lps-company.com</strong>
-          </a>
-          <a href="mailto:snackeria@lps-company.com">
-            <span>Snack</span>
-            <strong>snackeria@lps-company.com</strong>
-          </a>
-        </div>
+            <div class="core-node" aria-label="Core de LPS Company">
+              <span>CORE</span>
+              <h2>LPS Company</h2>
+              <p>Un dominio principal que organiza las divisiones, contactos y crecimiento del grupo.</p>
+              <a href="mailto:info@lps-company.com">info@lps-company.com</a>
+            </div>
+
+            <article class="division-node wash-node">
+              <span class="status-pill active">EN / DO</span>
+              <h2>Luciano Wash</h2>
+              <p>Limpieza profesional para autos, hogares, negocios y exteriores.</p>
+              <ul class="node-list">
+                <li>Web activa para clientes</li>
+                <li>Cotizaciones por WhatsApp</li>
+                <li>Correo operativo por división</li>
+              </ul>
+              <div class="node-actions">
+                <a
+                  class="action-button"
+                  href="https://ycastillog.github.io/LucianoWash/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Entrar a Luciano Wash"
+                >
+                  <span>Entrar</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+                <a class="node-link" href="mailto:lwash@lps-company.com">
+                  lwash@lps-company.com
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
 
         <div class="quick-contact" aria-label="Contacto rápido">
           <a

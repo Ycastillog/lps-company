@@ -80,7 +80,7 @@ a {
 
 .selector-card {
   position: relative;
-  width: min(100%, 560px);
+  width: min(100%, 980px);
   padding: 18px;
   overflow: hidden;
   border: 1px solid var(--card-border);
@@ -123,7 +123,7 @@ a {
 }
 
 .brand-mark {
-  width: min(100%, 280px);
+  width: min(100%, 300px);
   height: auto;
   border-radius: 16px;
   filter: drop-shadow(0 18px 34px rgba(33, 212, 253, 0.16));
@@ -172,30 +172,15 @@ h1 {
   outline: none;
 }
 
-.signal-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  margin-top: 10px;
+.system-map {
+  margin-top: 18px;
 }
 
-.signal-row span {
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-  padding: 7px 10px;
-  color: rgba(255, 255, 255, 0.76);
-  font-size: 0.74rem;
-  font-weight: 700;
-  background: rgba(255, 255, 255, 0.045);
-}
-
-.portfolio-header {
+.map-kicker {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 14px;
-  margin-top: 16px;
   color: rgba(255, 255, 255, 0.66);
   font-size: 0.75rem;
   font-weight: 800;
@@ -203,65 +188,131 @@ h1 {
   text-transform: uppercase;
 }
 
-.portfolio-header span:last-child {
+.map-kicker span:last-child {
   color: rgba(174, 188, 197, 0.72);
   font-size: 0.68rem;
-  font-weight: 700;
   letter-spacing: 0.04em;
 }
 
-.company-list {
+.map-grid {
+  position: relative;
   display: grid;
+  grid-template-columns: 1fr;
   gap: 10px;
   margin-top: 10px;
 }
 
-.company-item {
+.map-grid::before {
+  position: absolute;
+  inset: 50% 12% auto;
+  height: 1px;
+  content: "";
+  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.32), transparent);
+}
+
+.division-node,
+.core-node {
   position: relative;
   display: grid;
-  gap: 14px;
-  padding: 14px;
+  gap: 8px;
   border: 1px solid var(--line);
   border-radius: 18px;
+  padding: 15px;
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.064), transparent 72%),
     rgba(255, 255, 255, 0.045);
-  transition:
-    border-color 180ms ease,
-    background 180ms ease,
-    transform 180ms ease;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.16);
 }
 
-.company-item:hover {
-  transform: translateY(-1px);
-  border-color: rgba(45, 212, 191, 0.28);
+.core-node {
+  place-items: center;
+  text-align: center;
+  border-color: rgba(45, 212, 191, 0.34);
   background:
-    linear-gradient(135deg, rgba(45, 212, 191, 0.11), transparent 68%),
-    rgba(255, 255, 255, 0.06);
+    radial-gradient(circle at top, rgba(45, 212, 191, 0.18), transparent 70%),
+    rgba(255, 255, 255, 0.07);
 }
 
-.company-item-primary {
-  border-color: rgba(33, 212, 253, 0.28);
-  background:
-    linear-gradient(135deg, rgba(33, 212, 253, 0.13), transparent 58%),
-    rgba(255, 255, 255, 0.065);
-}
-
-.company-item-primary::after {
+.core-node::before,
+.core-node::after {
   position: absolute;
-  top: 18px;
-  right: 18px;
-  width: 9px;
-  height: 9px;
+  top: 50%;
+  width: 34px;
+  height: 1px;
+  content: "";
+  background: rgba(45, 212, 191, 0.46);
+}
+
+.core-node::before {
+  right: 100%;
+}
+
+.core-node::after {
+  left: 100%;
+}
+
+.core-node > span {
+  border: 1px solid rgba(45, 212, 191, 0.28);
+  border-radius: 999px;
+  padding: 5px 10px;
+  color: #d8fffa;
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.core-node h2,
+.division-node h2 {
+  margin: 0;
+}
+
+.core-node p,
+.division-node p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.38;
+}
+
+.core-node a,
+.node-link {
+  overflow: hidden;
+  color: rgba(216, 255, 250, 0.9);
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.node-list {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.78rem;
+  line-height: 1.28;
+  list-style: none;
+}
+
+.node-list li {
+  position: relative;
+  padding-left: 14px;
+}
+
+.node-list li::before {
+  position: absolute;
+  top: 0.6em;
+  left: 0;
+  width: 5px;
+  height: 5px;
   border-radius: 999px;
   content: "";
-  background: var(--whatsapp);
-  box-shadow: 0 0 0 6px rgba(37, 211, 102, 0.12);
+  background: var(--cyan);
 }
 
-.company-copy {
+.node-actions {
   display: grid;
-  gap: 7px;
+  gap: 8px;
 }
 
 .status-pill {
@@ -364,55 +415,6 @@ h2 {
   background: rgba(45, 212, 191, 0.12);
 }
 
-.email-hub {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 6px;
-  margin-top: 10px;
-}
-
-.email-hub a {
-  display: flex;
-  min-height: 32px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  border: 1px solid rgba(45, 212, 191, 0.14);
-  border-radius: 12px;
-  color: rgba(216, 255, 250, 0.84);
-  font-size: 0.78rem;
-  font-weight: 700;
-  background: rgba(45, 212, 191, 0.045);
-  transition:
-    border-color 180ms ease,
-    background 180ms ease,
-    color 180ms ease;
-}
-
-.email-hub span {
-  color: rgba(174, 188, 197, 0.78);
-  font-size: 0.68rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.email-hub strong {
-  overflow: hidden;
-  color: rgba(216, 255, 250, 0.9);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.email-hub a:hover,
-.email-hub a:focus-visible {
-  border-color: rgba(45, 212, 191, 0.28);
-  color: #ffffff;
-  background: rgba(45, 212, 191, 0.08);
-  outline: none;
-}
-
 .quick-contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -480,19 +482,26 @@ footer {
     padding: 18px 20px;
   }
 
-  .company-item {
-    grid-template-columns: 1fr 128px;
+  .map-grid {
+    grid-template-columns: minmax(0, 1fr) 0.9fr minmax(0, 1fr);
     align-items: center;
-    gap: 16px;
-    padding: 15px;
+    gap: 34px;
+  }
+
+  .snackeria-node {
+    order: 1;
+  }
+
+  .core-node {
+    order: 2;
+  }
+
+  .wash-node {
+    order: 3;
   }
 
   .quick-contact {
     grid-template-columns: 1.15fr 0.85fr;
-  }
-
-  .email-hub {
-    grid-template-columns: 1.08fr 0.96fr 1.18fr;
   }
 }
 
@@ -533,46 +542,47 @@ footer {
     font-size: 0.68rem;
   }
 
-  .company-list {
-    gap: 10px;
+  .system-map {
+    margin-top: 14px;
+  }
+
+  .map-kicker {
+    align-items: flex-start;
+    font-size: 0.68rem;
+  }
+
+  .map-kicker span:last-child {
+    font-size: 0.62rem;
+  }
+
+  .map-grid {
+    gap: 8px;
     margin-top: 8px;
   }
 
-  .portfolio-header {
-    margin-top: 16px;
+  .map-grid::before,
+  .core-node::before,
+  .core-node::after {
+    display: none;
   }
 
-  .company-item {
-    gap: 10px;
-    padding: 12px;
+  .division-node,
+  .core-node {
+    gap: 6px;
+    padding: 11px;
   }
 
-  .company-copy {
-    gap: 7px;
+  .core-node {
+    order: -1;
   }
 
-  .company-copy p {
-    font-size: 0.88rem;
-    line-height: 1.38;
-  }
-
-  .company-tags {
+  .node-list {
     display: none;
   }
 
   .action-button,
   .contact-link {
     min-height: 40px;
-  }
-
-  .email-hub {
-    gap: 5px;
-    margin-top: 8px;
-  }
-
-  .email-hub a {
-    min-height: 30px;
-    padding: 0 9px;
   }
 
   .quick-contact {
