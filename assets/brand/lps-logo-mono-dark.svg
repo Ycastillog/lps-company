@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">LPS Company monochrome logo</title>
+  <desc id="desc">Monochrome LPS Company logo for single-color applications.</desc>
+  <rect width="920" height="260" rx="32" fill="#0A2540"/>
+  <g fill="#FFFFFF">
+    <path d="M76 58 150 18v36L76 96Z"/>
+    <path d="M48 104 170 38v39L48 144Z" opacity="0.86"/>
+    <path d="M76 150 170 98v39L76 189Z" opacity="0.74"/>
+    <path d="M48 152 76 137v52L48 204Z" opacity="0.62"/>
+    <text x="238" y="130" font-family="Inter, Montserrat, Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="-1">LPS</text>
+    <text x="242" y="178" font-family="Inter, Montserrat, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="8">COMPANY GROUP</text>
+  </g>
+</svg>

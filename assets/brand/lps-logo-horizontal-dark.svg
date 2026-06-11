@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">LPS Company logo</title>
+  <desc id="desc">Premium horizontal LPS Company logo on dark background.</desc>
+  <defs>
+    <linearGradient id="teal" x1="34" y1="30" x2="146" y2="136" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EF7EA"/>
+      <stop offset="0.45" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0B7CA8"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="24" y1="122" x2="134" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A4F8A"/>
+      <stop offset="0.5" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="48" y1="126" x2="142" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF6FA"/>
+      <stop offset="0.56" stop-color="#AEBCC5"/>
+      <stop offset="1" stop-color="#F8FBFC"/>
+    </linearGradient>
+    <linearGradient id="word" x1="240" y1="72" x2="614" y2="144" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#AEBCC5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="920" height="260" rx="32" fill="#0A2540"/>
+  <g filter="url(#shadow)">
+    <path d="M76 58 150 18v36L76 96Z" fill="url(#teal)"/>
+    <path d="M48 104 170 38v39L48 144Z" fill="url(#blue)"/>
+    <path d="M76 150 170 98v39L76 189Z" fill="url(#silver)"/>
+    <path d="M48 152 76 137v52L48 204Z" fill="#0E6EA7"/>
+  </g>
+  <g>
+    <text x="238" y="130" fill="url(#word)" font-family="Inter, Montserrat, Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="-1">LPS</text>
+    <text x="242" y="178" fill="#2DD4BF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="8">COMPANY</text>
+    <text x="455" y="178" fill="#AEBCC5" font-family="Inter, Montserrat, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="8">GROUP</text>
+  </g>
+</svg>

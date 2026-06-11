@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">LPS Company brand board</title>
+  <desc id="desc">Brand board showing horizontal, square, monochrome, dark, and light logo versions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FAFC"/>
+      <stop offset="1" stop-color="#DCE6EA"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7EF7EA"/>
+      <stop offset="0.45" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0B7CA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="980" fill="url(#bg)"/>
+  <text x="86" y="96" fill="#0A2540" font-family="Inter, Montserrat, Arial, sans-serif" font-size="46" font-weight="800">LPS Company</text>
+  <text x="88" y="136" fill="#536672" font-family="Inter, Montserrat, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="3">PREMIUM HOLDING IDENTITY</text>
+  <rect x="80" y="188" width="590" height="230" rx="28" fill="#0A2540"/>
+  <image href="lps-logo-horizontal-dark.svg" x="98" y="203" width="554" height="157"/>
+  <text x="110" y="390" fill="#AEBCC5" font-family="Inter, Montserrat, Arial, sans-serif" font-size="17">Logo sobre fondo oscuro</text>
+  <rect x="730" y="188" width="590" height="230" rx="28" fill="#FFFFFF"/>
+  <image href="lps-logo-horizontal-light.svg" x="748" y="203" width="554" height="157"/>
+  <text x="760" y="390" fill="#536672" font-family="Inter, Montserrat, Arial, sans-serif" font-size="17">Logo sobre fondo claro</text>
+  <rect x="80" y="478" width="360" height="360" rx="32" fill="#0A2540"/>
+  <image href="lps-icon-square.svg" x="154" y="544" width="212" height="212"/>
+  <text x="110" y="808" fill="#AEBCC5" font-family="Inter, Montserrat, Arial, sans-serif" font-size="17">Versión cuadrada para favicon/app</text>
+  <rect x="500" y="478" width="360" height="360" rx="32" fill="#0A2540"/>
+  <image href="lps-logo-mono-dark.svg" x="524" y="574" width="312" height="88"/>
+  <text x="530" y="808" fill="#AEBCC5" font-family="Inter, Montserrat, Arial, sans-serif" font-size="17">Versión monocromática</text>
+  <rect x="920" y="478" width="400" height="360" rx="32" fill="#FFFFFF"/>
+  <text x="956" y="566" fill="#0A2540" font-family="Inter, Montserrat, Arial, sans-serif" font-size="23" font-weight="800">Sistema visual</text>
+  <circle cx="972" cy="625" r="22" fill="#0A2540"/>
+  <text x="1015" y="633" fill="#536672" font-family="Inter, Montserrat, Arial, sans-serif" font-size="19">Azul oscuro #0A2540</text>
+  <circle cx="972" cy="685" r="22" fill="#2DD4BF"/>
+  <text x="1015" y="693" fill="#536672" font-family="Inter, Montserrat, Arial, sans-serif" font-size="19">Turquesa #2DD4BF</text>
+  <circle cx="972" cy="745" r="22" fill="#AEBCC5"/>
+  <text x="1015" y="753" fill="#536672" font-family="Inter, Montserrat, Arial, sans-serif" font-size="19">Gris plata sutil</text>
+</svg>
