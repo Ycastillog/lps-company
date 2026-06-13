@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" role="img" aria-labelledby="title desc">
+  <title id="title">LPS Company Group vertical logo</title>
+  <desc id="desc">Premium monogram logo for LPS Company Group on light background.</desc>
+  <rect width="520" height="640" rx="40" fill="#F7FAFC"/>
+  <g transform="translate(140 76)">
+    <rect x="0" y="0" width="240" height="240" rx="28" fill="none" stroke="#AEBCC5" stroke-width="8"/>
+    <path d="M58 54v132h58" fill="none" stroke="#0A2540" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M116 186V54h57c31 0 51 18 51 45s-20 45-51 45h-31" fill="none" stroke="#0A2540" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M210 68h-50c-20 0-32 10-32 25 0 17 13 23 34 27l22 4c24 4 38 16 38 38 0 25-20 39-55 39h-48" fill="none" stroke="#139E91" stroke-width="22" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
+  <text x="260" y="414" text-anchor="middle" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="2">LPS</text>
+  <text x="260" y="468" text-anchor="middle" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="8">COMPANY</text>
+  <text x="260" y="512" text-anchor="middle" fill="#6B7C88" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="8">GROUP</text>
+  <path d="M166 552h188" stroke="#139E91" stroke-width="4" stroke-linecap="round"/>
+</svg>

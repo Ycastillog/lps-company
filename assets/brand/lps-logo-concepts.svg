@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">LPS Company Group logo concepts</title>
+  <desc id="desc">Five premium logo concepts for LPS Company Group.</desc>
+  <rect width="1600" height="1000" fill="#F7FAFC"/>
+  <text x="80" y="86" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800">LPS Company Group</text>
+  <text x="80" y="126" fill="#6B7C88" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">Logo exploration for a modern corporate holding</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(80 180)">
+      <rect width="440" height="300" rx="26" fill="#0A2540"/>
+      <text x="32" y="48" fill="#AEBCC5" font-size="18" font-weight="800" letter-spacing="2">CONCEPT 1</text>
+      <text x="32" y="74" fill="#FFFFFF" font-size="24" font-weight="800">Premium LPS monogram</text>
+      <g transform="translate(132 104) scale(0.58)">
+        <rect x="0" y="0" width="240" height="240" rx="28" fill="none" stroke="#AEBCC5" stroke-width="8"/>
+        <path d="M58 54v132h58" fill="none" stroke="#FFFFFF" stroke-width="24"/>
+        <path d="M116 186V54h57c31 0 51 18 51 45s-20 45-51 45h-31" fill="none" stroke="#FFFFFF" stroke-width="24"/>
+        <path d="M210 68h-50c-20 0-32 10-32 25 0 17 13 23 34 27l22 4c24 4 38 16 38 38 0 25-20 39-55 39h-48" fill="none" stroke="#2DD4BF" stroke-width="22"/>
+      </g>
+    </g>
+    <g transform="translate(580 180)">
+      <rect width="440" height="300" rx="26" fill="#0A2540"/>
+      <text x="32" y="48" fill="#AEBCC5" font-size="18" font-weight="800" letter-spacing="2">CONCEPT 2</text>
+      <text x="32" y="74" fill="#FFFFFF" font-size="24" font-weight="800">Three corporate blocks</text>
+      <g transform="translate(132 118)">
+        <rect x="0" y="0" width="72" height="150" rx="10" fill="#2DD4BF"/>
+        <rect x="92" y="36" width="72" height="114" rx="10" fill="#FFFFFF"/>
+        <rect x="184" y="76" width="72" height="74" rx="10" fill="#AEBCC5"/>
+        <path d="M0 176h256" stroke="#2DD4BF" stroke-width="8" stroke-linecap="round"/>
+      </g>
+    </g>
+    <g transform="translate(1080 180)">
+      <rect width="440" height="300" rx="26" fill="#0A2540"/>
+      <text x="32" y="48" fill="#AEBCC5" font-size="18" font-weight="800" letter-spacing="2">CONCEPT 3</text>
+      <text x="32" y="74" fill="#FFFFFF" font-size="24" font-weight="800">Enterprise structure</text>
+      <g transform="translate(130 104)">
+        <rect x="76" y="0" width="104" height="58" rx="12" fill="#FFFFFF"/>
+        <rect x="0" y="128" width="104" height="58" rx="12" fill="#2DD4BF"/>
+        <rect x="152" y="128" width="104" height="58" rx="12" fill="#AEBCC5"/>
+        <path d="M128 58v40M52 128v-30h152v30" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <g transform="translate(330 560)">
+      <rect width="440" height="300" rx="26" fill="#0A2540"/>
+      <text x="32" y="48" fill="#AEBCC5" font-size="18" font-weight="800" letter-spacing="2">CONCEPT 4</text>
+      <text x="32" y="74" fill="#FFFFFF" font-size="24" font-weight="800">Abstract premium symbol</text>
+      <g transform="translate(132 112)">
+        <path d="M0 70 128 0l128 70-128 70Z" fill="#FFFFFF"/>
+        <path d="M0 92 128 162l128-70v48l-128 70L0 140Z" fill="#2DD4BF"/>
+        <path d="M128 0v70l128 70V70Z" fill="#AEBCC5" opacity="0.82"/>
+      </g>
+    </g>
+    <g transform="translate(830 560)">
+      <rect width="440" height="300" rx="26" fill="#0A2540"/>
+      <text x="32" y="48" fill="#AEBCC5" font-size="18" font-weight="800" letter-spacing="2">CONCEPT 5</text>
+      <text x="32" y="74" fill="#FFFFFF" font-size="24" font-weight="800">Ultra minimal initials</text>
+      <text x="75" y="202" fill="#FFFFFF" font-size="118" font-weight="800" letter-spacing="12">LPS</text>
+      <path d="M78 224h284" stroke="#2DD4BF" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
