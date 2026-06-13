@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
-  <title id="title">LPS Company Group</title>
-  <desc id="desc">Premium monogram horizontal logo for LPS Company Group on dark background.</desc>
+  <title id="title">LPS Company</title>
+  <desc id="desc">Premium monogram horizontal logo for LPS Company on dark background.</desc>
   <rect width="920" height="260" rx="32" fill="#0A2540"/>
   <g transform="translate(64 38)">
     <rect x="0" y="0" width="184" height="184" rx="24" fill="none" stroke="#AEBCC5" stroke-width="7"/>
@@ -10,6 +10,5 @@
   </g>
   <text x="306" y="114" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="1">LPS</text>
   <text x="310" y="166" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">COMPANY</text>
-  <text x="520" y="166" fill="#AEBCC5" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">GROUP</text>
-  <path d="M310 192h390" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M310 192h250" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
 </svg>

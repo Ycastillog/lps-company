@@ -1,6 +1,6 @@
 # LPS Company
 
-Mini pagina tipo tarjeta para seleccionar empresas de LPS Company Group.
+Mini pagina tipo tarjeta para seleccionar empresas de LPS Company.
 
 ## Publicacion en GitHub Pages
 
