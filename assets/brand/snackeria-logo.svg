@@ -1,23 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
-  <title id="title">Snackería</title>
-  <desc id="desc">Minimal corporate logo for Snackería smart vending.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">Snackeria</title>
+  <desc id="desc">Snackeria logo with blue can mark matching the vending machine brand.</desc>
   <defs>
-    <linearGradient id="mint" x1="78" y1="32" x2="202" y2="172" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7EF7EA"/>
-      <stop offset="0.55" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#0EA5A3"/>
+    <linearGradient id="can" x1="254" y1="44" x2="318" y2="182" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A5E7F2"/>
+      <stop offset="0.45" stop-color="#4DAFC6"/>
+      <stop offset="1" stop-color="#1D6F92"/>
     </linearGradient>
+    <linearGradient id="word" x1="92" y1="118" x2="644" y2="138" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#147BC1"/>
+      <stop offset="0.46" stop-color="#1EA7E1"/>
+      <stop offset="1" stop-color="#0B4F89"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
   </defs>
-  <rect width="640" height="220" rx="32" fill="#071C32"/>
-  <g transform="translate(48 34)">
-    <rect x="0" y="0" width="124" height="152" rx="26" fill="#0A2540" stroke="#2DD4BF" stroke-width="8"/>
-    <rect x="22" y="24" width="34" height="34" rx="8" fill="url(#mint)"/>
-    <rect x="68" y="24" width="34" height="34" rx="8" fill="#FFFFFF" opacity="0.9"/>
-    <rect x="22" y="72" width="34" height="34" rx="8" fill="#FFFFFF" opacity="0.76"/>
-    <rect x="68" y="72" width="34" height="34" rx="8" fill="url(#mint)"/>
-    <path d="M24 126h76" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="98" cy="126" r="10" fill="#FFFFFF"/>
+  <rect width="760" height="260" rx="34" fill="#071C32"/>
+  <g transform="translate(64 0)" filter="url(#shadow)">
+    <text x="92" y="137" fill="none" stroke="#071C32" stroke-width="18" stroke-linejoin="round" font-family="Inter, Montserrat, Arial, sans-serif" font-size="66" font-weight="950" letter-spacing="-3">SNACKERIA</text>
+    <text x="92" y="137" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" font-family="Inter, Montserrat, Arial, sans-serif" font-size="66" font-weight="950" letter-spacing="-3">SNACKERIA</text>
+    <text x="92" y="137" fill="url(#word)" font-family="Inter, Montserrat, Arial, sans-serif" font-size="66" font-weight="950" letter-spacing="-3">SNACKERIA</text>
   </g>
-  <text x="210" y="101" fill="#FFFFFF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="50" font-weight="850">SNACKERÍA</text>
-  <text x="214" y="145" fill="#2DD4BF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="22" font-weight="750" letter-spacing="5">SMART VENDING</text>
+  <g transform="translate(266 34) scale(0.86)" filter="url(#shadow)">
+    <ellipse cx="66" cy="15" rx="47" ry="13" fill="#0A2540" stroke="#D7EEF3" stroke-width="4"/>
+    <path d="M21 16c6 23 6 95 0 126 17 15 74 15 91 0-6-31-6-103 0-126-17 10-74 10-91 0Z" fill="url(#can)" stroke="#0A2540" stroke-width="5"/>
+    <ellipse cx="66" cy="142" rx="46" ry="13" fill="#1E789C" stroke="#0A2540" stroke-width="5"/>
+    <path d="M44 35c18 9 44 8 64-2M38 64c22 10 55 10 77 0" fill="none" stroke="#D8F5F8" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+    <path d="M36 94h61" stroke="#0A2540" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+  </g>
+  <text x="306" y="166" fill="#FFFFFF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="2">TU ANTOJO, AHORA</text>
+  <text x="338" y="195" fill="#9FB4BF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="14" font-style="italic" font-weight="700">Since 2026</text>
 </svg>

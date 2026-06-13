@@ -270,7 +270,7 @@ h1 {
 }
 
 .division-logo {
-  width: min(100%, 170px);
+  width: min(100%, 214px);
   height: auto;
   border: 1px solid rgba(45, 212, 191, 0.14);
   border-radius: 14px;
@@ -673,7 +673,7 @@ footer a:focus-visible {
   }
 
   .division-logo {
-    width: min(100%, 165px);
+    width: min(100%, 190px);
   }
 
   .wash-node .node-list {
