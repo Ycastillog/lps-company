@@ -367,12 +367,6 @@ h1 {
   text-transform: none;
 }
 
-.tech-pill {
-  border-color: rgba(174, 188, 197, 0.22);
-  color: rgba(255, 255, 255, 0.72);
-  background: rgba(174, 188, 197, 0.07);
-}
-
 h2 {
   font-size: 1.18rem;
   line-height: 1.15;
@@ -514,6 +508,18 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: rgba(216, 255, 250, 0.62);
+  font-weight: 700;
+  transition: color 180ms ease;
+}
+
+footer a:hover,
+footer a:focus-visible {
+  color: rgba(255, 255, 255, 0.86);
+  outline: none;
+}
+
 @media (min-width: 680px) {
   .page-shell {
     padding: 8px 24px;
@@ -524,9 +530,9 @@ footer {
   }
 
   .map-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: stretch;
-    gap: 12px;
+    gap: 16px;
   }
 
   .snackeria-node {
@@ -535,10 +541,6 @@ footer {
 
   .wash-node {
     order: 2;
-  }
-
-  .yc-node {
-    order: 3;
   }
 
   .quick-contact {
@@ -625,7 +627,6 @@ footer {
     display: none;
   }
 
-  .yc-node .node-list,
   .snackeria-node .node-list {
     display: none;
   }
