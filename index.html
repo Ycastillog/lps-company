@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="LPS Company - hub central para Snackería, Luciano Wash y futuras divisiones empresariales."
+      content="LPS Company - grupo empresarial con operaciones en servicios, retail y tecnología."
     />
     <meta name="theme-color" content="#061827" />
     <meta property="og:title" content="LPS Company" />
@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=2" />
   </head>
   <body>
     <main class="page-shell">
@@ -43,6 +43,9 @@
         </header>
 
         <p class="intro">Elige a dónde deseas dirigirte</p>
+        <p class="holding-copy">
+          Grupo empresarial con operaciones en servicios, retail y tecnología.
+        </p>
         <a class="brand-domain" href="https://lps-company.com/" aria-label="Dominio oficial de LPS Company">
           lps-company.com
         </a>
@@ -60,30 +63,42 @@
 
           <div class="map-grid">
             <article class="division-node snackeria-node">
-              <span class="status-pill">DO</span>
+              <span class="status-pill country-pill">🇩🇴 Dominican Republic</span>
               <h2>Snackería</h2>
-              <p>Máquinas expendedoras conectadas a ubicaciones comerciales.</p>
+              <p>Smart vending operation for commercial locations.</p>
               <ul class="node-list">
-                <li>Mapa interactivo de ubicaciones</li>
-                <li>QR directo a la página web</li>
-                <li>Puntos para clientes frecuentes</li>
+                <li>Smart Vending Machines</li>
+                <li>QR Ordering</li>
+                <li>Loyalty Rewards</li>
+                <li>Commercial Locations</li>
               </ul>
-              <a
-                class="node-link"
-                href="mailto:snackeria@lps-company.com?subject=Información%20Snackería"
-              >
-                snackeria@lps-company.com
-              </a>
+              <div class="brand-email">
+                <span>Snackería</span>
+                <a
+                  class="node-link"
+                  href="mailto:snackeria@lps-company.com?subject=Información%20Snackería"
+                >
+                  snackeria@lps-company.com
+                </a>
+              </div>
             </article>
 
-            <article class="division-node wash-node">
-              <span class="status-pill active">EN / DO</span>
+            <article class="division-node wash-node featured-node">
+              <span class="status-pill active country-pill">🇺🇸 United States</span>
+              <img
+                class="division-logo wash-logo"
+                src="assets/brand/luciano-wash-logo.svg"
+                width="760"
+                height="260"
+                alt="Luciano Wash Professional Cleaning"
+              />
               <h2>Luciano Wash</h2>
-              <p>Limpieza profesional para autos, hogares, negocios y exteriores.</p>
+              <p>Professional cleaning for homes, vehicles, carpets, pools and exterior areas.</p>
               <ul class="node-list">
-                <li>Web activa para clientes</li>
-                <li>Cotizaciones por WhatsApp</li>
-                <li>Correo operativo por división</li>
+                <li>Residential Cleaning</li>
+                <li>Auto Detailing</li>
+                <li>Carpet &amp; Upholstery</li>
+                <li>Pool &amp; Exterior Cleaning</li>
               </ul>
               <div class="node-actions">
                 <a
@@ -96,10 +111,34 @@
                   <span>Entrar</span>
                   <span aria-hidden="true">→</span>
                 </a>
-                <a class="node-link" href="mailto:lwash@lps-company.com">
-                  lwash@lps-company.com
-                </a>
+                <div class="brand-email">
+                  <span>Luciano Wash</span>
+                  <a class="node-link" href="mailto:LucianoWash@lps-company.com">
+                    LucianoWash@lps-company.com
+                  </a>
+                </div>
               </div>
+            </article>
+
+            <article class="division-node yc-node">
+              <span class="status-pill tech-pill">Technology</span>
+              <h2>YC Systems</h2>
+              <p>Digital systems, websites and automation for the LPS business ecosystem.</p>
+              <ul class="node-list">
+                <li>Websites &amp; Brand Infrastructure</li>
+                <li>Automation</li>
+                <li>Business Systems</li>
+                <li>Technology Support</li>
+              </ul>
+              <a
+                class="action-button muted-link"
+                href="https://ycastillog.github.io/YcSystems/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Entrar a YC Systems"
+              >
+                <span>Ver sitio</span>
+              </a>
             </article>
           </div>
         </section>

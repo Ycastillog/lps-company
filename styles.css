@@ -80,8 +80,8 @@ a {
 
 .selector-card {
   position: relative;
-  width: min(100%, 980px);
-  padding: 18px;
+  width: min(100%, 1080px);
+  padding: 14px;
   overflow: hidden;
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
@@ -110,10 +110,10 @@ a {
 
 .brand-label {
   width: fit-content;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   border: 1px solid rgba(45, 212, 191, 0.28);
   border-radius: 999px;
-  padding: 6px 10px;
+  padding: 5px 9px;
   color: #d8fffa;
   font-size: 0.69rem;
   font-weight: 800;
@@ -123,7 +123,7 @@ a {
 }
 
 .brand-mark {
-  width: min(100%, 300px);
+  width: min(100%, 260px);
   height: auto;
   border-radius: 16px;
   filter: drop-shadow(0 18px 34px rgba(33, 212, 253, 0.16));
@@ -146,16 +146,25 @@ h1 {
 }
 
 .intro {
-  margin-top: 8px;
+  margin-top: 6px;
   color: var(--muted);
   font-size: 1rem;
+  text-align: center;
+}
+
+.holding-copy {
+  max-width: 560px;
+  margin: 6px auto 0;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.84rem;
+  line-height: 1.32;
   text-align: center;
 }
 
 .brand-domain {
   display: block;
   width: fit-content;
-  margin: 6px auto 0;
+  margin: 5px auto 0;
   color: #d8fffa;
   font-size: 0.82rem;
   font-weight: 800;
@@ -173,7 +182,7 @@ h1 {
 }
 
 .system-map {
-  margin-top: 18px;
+  margin-top: 12px;
 }
 
 .map-kicker {
@@ -217,10 +226,10 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin: 10px auto 0;
+  margin: 8px auto 0;
   border: 1px solid rgba(45, 212, 191, 0.18);
   border-radius: 999px;
-  padding: 7px 12px;
+  padding: 6px 11px;
   color: rgba(216, 255, 250, 0.86);
   background: rgba(45, 212, 191, 0.055);
 }
@@ -242,14 +251,33 @@ h1 {
 .division-node {
   position: relative;
   display: grid;
-  gap: 8px;
+  gap: 7px;
   border: 1px solid var(--line);
   border-radius: 18px;
-  padding: 15px;
+  padding: 13px;
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.064), transparent 72%),
     rgba(255, 255, 255, 0.045);
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.16);
+}
+
+.featured-node {
+  border-color: rgba(45, 212, 191, 0.3);
+  background:
+    radial-gradient(circle at top right, rgba(45, 212, 191, 0.12), transparent 58%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.064), transparent 72%),
+    rgba(255, 255, 255, 0.052);
+}
+
+.division-logo {
+  width: min(100%, 170px);
+  height: auto;
+  border: 1px solid rgba(45, 212, 191, 0.14);
+  border-radius: 14px;
+}
+
+.wash-logo {
+  margin-top: -2px;
 }
 
 .division-node h2 {
@@ -258,8 +286,8 @@ h1 {
 
 .division-node p {
   color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.38;
+  font-size: 0.84rem;
+  line-height: 1.32;
 }
 
 .node-link {
@@ -273,18 +301,19 @@ h1 {
 
 .node-list {
   display: grid;
-  gap: 5px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
   margin: 0;
   padding: 0;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 0.78rem;
-  line-height: 1.28;
+  font-size: 0.73rem;
+  line-height: 1.22;
   list-style: none;
 }
 
 .node-list li {
   position: relative;
-  padding-left: 14px;
+  padding-left: 12px;
 }
 
 .node-list li::before {
@@ -300,7 +329,20 @@ h1 {
 
 .node-actions {
   display: grid;
-  gap: 8px;
+  gap: 6px;
+}
+
+.brand-email {
+  display: grid;
+  gap: 3px;
+}
+
+.brand-email span {
+  color: rgba(174, 188, 197, 0.78);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .status-pill {
@@ -318,6 +360,17 @@ h1 {
   border-color: rgba(37, 211, 102, 0.34);
   color: #c9ffdc;
   background: rgba(37, 211, 102, 0.1);
+}
+
+.country-pill {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.tech-pill {
+  border-color: rgba(174, 188, 197, 0.22);
+  color: rgba(255, 255, 255, 0.72);
+  background: rgba(174, 188, 197, 0.07);
 }
 
 h2 {
@@ -355,7 +408,7 @@ h2 {
 
 .action-button {
   display: inline-flex;
-  min-height: 44px;
+  min-height: 40px;
   align-items: center;
   justify-content: center;
   gap: 8px;
@@ -453,8 +506,8 @@ h2 {
 }
 
 footer {
-  margin-top: 12px;
-  padding-top: 10px;
+  margin-top: 9px;
+  padding-top: 8px;
   border-top: 1px solid var(--line);
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.78rem;
@@ -467,13 +520,13 @@ footer {
   }
 
   .selector-card {
-    padding: 18px 20px;
+    padding: 14px 16px;
   }
 
   .map-grid {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: stretch;
-    gap: 18px;
+    gap: 12px;
   }
 
   .snackeria-node {
@@ -482,6 +535,10 @@ footer {
 
   .wash-node {
     order: 2;
+  }
+
+  .yc-node {
+    order: 3;
   }
 
   .quick-contact {
@@ -509,7 +566,12 @@ footer {
   }
 
   .brand-mark {
-    width: min(100%, 260px);
+    width: min(100%, 235px);
+  }
+
+  .holding-copy {
+    font-size: 0.82rem;
+    line-height: 1.32;
   }
 
   .intro {
@@ -527,7 +589,7 @@ footer {
   }
 
   .system-map {
-    margin-top: 14px;
+    margin-top: 12px;
   }
 
   .map-kicker {
@@ -553,6 +615,19 @@ footer {
   .division-node {
     gap: 6px;
     padding: 11px;
+  }
+
+  .division-logo {
+    width: min(100%, 165px);
+  }
+
+  .wash-node .node-list {
+    display: none;
+  }
+
+  .yc-node .node-list,
+  .snackeria-node .node-list {
+    display: none;
   }
 
   .core-strip {

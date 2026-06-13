@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">Luciano Wash</title>
+  <desc id="desc">Minimal premium logo for Luciano Wash with a house roof forming a vehicle silhouette.</desc>
+  <defs>
+    <linearGradient id="cyan" x1="118" y1="46" x2="260" y2="172" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EEBFF"/>
+      <stop offset="0.52" stop-color="#21D4FD"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="52" y1="202" x2="260" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071C32"/>
+      <stop offset="1" stop-color="#0A2540"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="260" rx="36" fill="#071C32"/>
+  <g transform="translate(42 42)">
+    <path d="M22 88 116 18l122 92" fill="none" stroke="url(#cyan)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M52 100h162c22 0 40 18 40 40v20H22v-30c0-17 13-30 30-30Z" fill="url(#navy)" stroke="#21D4FD" stroke-width="10"/>
+    <path d="M64 100c14-28 44-46 78-46h34c25 0 49 11 65 31l12 15H64Z" fill="#0A2540" stroke="#2DD4BF" stroke-width="8"/>
+    <circle cx="72" cy="162" r="19" fill="#FFFFFF"/>
+    <circle cx="202" cy="162" r="19" fill="#FFFFFF"/>
+    <path d="M72 162h130" stroke="#2DD4BF" stroke-width="12" stroke-linecap="round"/>
+    <path d="M116 18v42" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <text x="340" y="112" fill="#FFFFFF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="58" font-weight="850" letter-spacing="0">LUCIANO</text>
+  <text x="340" y="164" fill="#21D4FD" font-family="Inter, Montserrat, Arial, sans-serif" font-size="52" font-weight="850" letter-spacing="1">WASH</text>
+  <text x="344" y="204" fill="#AEBCC5" font-family="Inter, Montserrat, Arial, sans-serif" font-size="24" font-weight="650" letter-spacing="5">PROFESSIONAL CLEANING</text>
+</svg>
