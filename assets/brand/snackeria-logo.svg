@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="title desc">
+  <title id="title">Snackería</title>
+  <desc id="desc">Minimal corporate logo for Snackería smart vending.</desc>
+  <defs>
+    <linearGradient id="mint" x1="78" y1="32" x2="202" y2="172" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EF7EA"/>
+      <stop offset="0.55" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#0EA5A3"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="220" rx="32" fill="#071C32"/>
+  <g transform="translate(48 34)">
+    <rect x="0" y="0" width="124" height="152" rx="26" fill="#0A2540" stroke="#2DD4BF" stroke-width="8"/>
+    <rect x="22" y="24" width="34" height="34" rx="8" fill="url(#mint)"/>
+    <rect x="68" y="24" width="34" height="34" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="22" y="72" width="34" height="34" rx="8" fill="#FFFFFF" opacity="0.76"/>
+    <rect x="68" y="72" width="34" height="34" rx="8" fill="url(#mint)"/>
+    <path d="M24 126h76" stroke="#2DD4BF" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="98" cy="126" r="10" fill="#FFFFFF"/>
+  </g>
+  <text x="210" y="101" fill="#FFFFFF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="50" font-weight="850">SNACKERÍA</text>
+  <text x="214" y="145" fill="#2DD4BF" font-family="Inter, Montserrat, Arial, sans-serif" font-size="22" font-weight="750" letter-spacing="5">SMART VENDING</text>
+</svg>
