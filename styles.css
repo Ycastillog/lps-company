@@ -7,7 +7,7 @@
   --muted: #a8bdca;
   --cyan: #2dd4bf;
   --cyan-deep: #169fca;
-  --whatsapp: #25d366;
+  --accent-green: #25d366;
   --silver: #aebcc5;
   --line: rgba(255, 255, 255, 0.1);
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
@@ -29,36 +29,8 @@ body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(45, 212, 191, 0.2), transparent 34rem),
-    radial-gradient(circle at bottom right, rgba(37, 211, 102, 0.14), transparent 28rem),
-    linear-gradient(135deg, #04111e 0%, var(--bg) 48%, #0e314f 100%);
-}
-
-body::before {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  content: "";
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent 72%);
-}
-
-body::after {
-  position: fixed;
-  inset: auto 8% 8% auto;
-  width: 360px;
-  height: 360px;
-  pointer-events: none;
-  content: "";
-  border: 1px solid rgba(45, 212, 191, 0.18);
-  border-radius: 50%;
-  box-shadow:
-    0 0 0 64px rgba(45, 212, 191, 0.035),
-    0 0 0 128px rgba(174, 188, 197, 0.025);
-  opacity: 0.75;
+    radial-gradient(circle at 50% -10%, rgba(45, 212, 191, 0.16), transparent 30rem),
+    linear-gradient(145deg, #03101c 0%, var(--bg) 52%, #0b2740 100%);
 }
 
 a {
@@ -99,7 +71,7 @@ a {
   inset: 0 0 auto;
   height: 3px;
   content: "";
-  background: linear-gradient(90deg, var(--cyan), var(--whatsapp), transparent);
+  background: linear-gradient(90deg, var(--cyan), var(--accent-green), transparent);
 }
 
 .brand {
@@ -211,14 +183,6 @@ h1 {
   margin-top: 10px;
 }
 
-.map-grid::before {
-  position: absolute;
-  inset: 50% 12% auto;
-  height: 1px;
-  content: "";
-  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.32), transparent);
-}
-
 .core-strip {
   display: flex;
   width: fit-content;
@@ -272,11 +236,19 @@ h1 {
 .division-logo {
   width: min(100%, 214px);
   height: auto;
+  object-fit: contain;
   border: 1px solid rgba(45, 212, 191, 0.14);
   border-radius: 14px;
 }
 
+.snack-logo {
+  width: min(100%, 246px);
+  padding: 8px 12px;
+  background: #ffffff;
+}
+
 .wash-logo {
+  width: min(100%, 196px);
   margin-top: -2px;
 }
 
@@ -514,57 +486,8 @@ h2 {
   background: rgba(45, 212, 191, 0.12);
 }
 
-.quick-contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-top: 12px;
-}
-
-.contact-link {
-  display: inline-flex;
-  min-height: 42px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 2px;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  color: var(--text);
-  font-size: 0.92rem;
-  font-weight: 700;
-  background: rgba(255, 255, 255, 0.055);
-  transition:
-    border-color 180ms ease,
-    background 180ms ease,
-    transform 180ms ease;
-}
-
-.contact-link strong {
-  color: rgba(255, 255, 255, 0.62);
-  font-size: 0.72rem;
-  font-weight: 600;
-}
-
-.contact-link:hover,
-.contact-link:focus-visible {
-  transform: translateY(-1px);
-  border-color: rgba(33, 212, 253, 0.4);
-  background: rgba(255, 255, 255, 0.09);
-  outline: none;
-}
-
-.contact-link.whatsapp {
-  border-color: rgba(37, 211, 102, 0.36);
-  color: #dcffe9;
-}
-
-.contact-link.whatsapp strong {
-  color: #bfffd7;
-}
-
 footer {
-  margin-top: 9px;
+  margin-top: 12px;
   padding-top: 8px;
   border-top: 1px solid var(--line);
   color: rgba(255, 255, 255, 0.5);
@@ -607,9 +530,6 @@ footer a:focus-visible {
     order: 2;
   }
 
-  .quick-contact {
-    grid-template-columns: 1.15fr 0.85fr;
-  }
 }
 
 @media (min-height: 760px) {
@@ -672,12 +592,6 @@ footer a:focus-visible {
     margin-top: 8px;
   }
 
-  .map-grid::before,
-  .core-strip::before,
-  .core-strip::after {
-    display: none;
-  }
-
   .division-node {
     gap: 6px;
     padding: 11px;
@@ -685,6 +599,14 @@ footer a:focus-visible {
 
   .division-logo {
     width: min(100%, 190px);
+  }
+
+  .snack-logo {
+    width: min(100%, 210px);
+  }
+
+  .wash-logo {
+    width: min(100%, 188px);
   }
 
   .wash-node .node-list {
@@ -713,13 +635,8 @@ footer a:focus-visible {
     display: none;
   }
 
-  .action-button,
-  .contact-link {
+  .action-button {
     min-height: 40px;
-  }
-
-  .quick-contact {
-    margin-top: 8px;
   }
 
   footer {
