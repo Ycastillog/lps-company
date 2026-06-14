@@ -1,32 +1,24 @@
 # LPS Company
 
-Mini pagina tipo tarjeta para seleccionar empresas de LPS Company.
+Pagina principal tipo holding para dirigir usuarios hacia las marcas de LPS Company.
 
-## Publicacion en GitHub Pages
+## Publicacion
 
-1. Sube este proyecto a un repositorio de GitHub.
-2. En `Settings > Pages`, selecciona la rama principal y la carpeta `/root`.
-3. Configura el dominio personalizado `lps-company.com`.
-4. En el proveedor del dominio, apunta el DNS a GitHub Pages.
-5. Activa `Enforce HTTPS` cuando GitHub Pages termine de emitir el certificado.
+- Dominio principal: `https://lps-company.com/`
+- GitHub Pages: rama `main`, carpeta `/root`
+- Subdominios activos:
+  - `http://snackeriado.lps-company.com/`
+  - `http://lucianowash.lps-company.com/`
 
-## Archivos
+Nota: los subdominios cargan por HTTP mientras GitHub Pages emite los certificados HTTPS.
 
-- `index.html`: estructura principal.
-- `styles.css`: diseno visual responsive.
-- `script.js`: enlace de WhatsApp con mensaje prellenado.
-- `assets/brand/lps-logo-horizontal-dark.svg`: logo horizontal para fondo oscuro.
-- `assets/brand/lps-logo-horizontal-light.svg`: logo horizontal para fondo claro.
-- `assets/brand/lps-logo-vertical-dark.svg`: logo vertical para fondo oscuro.
-- `assets/brand/lps-logo-vertical-light.svg`: logo vertical para fondo claro.
-- `assets/brand/lps-isotype.svg`: isotipo principal del monograma LPS.
-- `assets/brand/lps-icon-square.svg`: isotipo cuadrado para favicon/app.
-- `assets/brand/lps-logo-mono-dark.svg`: version monocromatica.
-- `assets/brand/lps-logo-concepts.svg`: tablero con cinco conceptos explorados.
-- `assets/brand/lps-brand-board.svg`: tablero visual de la marca.
-- `assets/brand/snackeria-official-logo.png`: logo oficial de Snackeria.
-- `assets/brand/snackeria-official-logo-transparent.png`: logo oficial de Snackeria con fondo transparente.
-- `assets/brand/luciano-wash-official-logo.png`: logo oficial de Luciano Wash.
-- `assets/brand/luciano-wash-official-logo-transparent.png`: logo oficial de Luciano Wash con fondo transparente.
+## Archivos principales
+
+- `index.html`: estructura principal y enlaces.
+- `styles.css`: diseno responsive y sistema visual.
+- `assets/brand/lps-company-official-logo.png`: logo oficial de LPS Company usado en el header.
+- `assets/brand/lps-company-official-icon.png`: favicon/app icon oficial.
+- `assets/brand/snackeria-official-logo-transparent.png`: logo oficial de Snackeria usado en la tarjeta.
+- `assets/brand/luciano-wash-official-logo-transparent.png`: logo oficial de Luciano Wash usado en la tarjeta.
 - `assets/lps-company-preview.jpg`: imagen para vista previa social.
-- `CNAME`: dominio personalizado para GitHub Pages.
+- `CNAME`: dominio personalizado de GitHub Pages.
