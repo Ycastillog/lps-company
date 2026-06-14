@@ -1,16 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
   <title id="title">LPS Company</title>
   <desc id="desc">Premium corporate horizontal logo for LPS Company on dark background.</desc>
-  <rect width="920" height="260" rx="32" fill="#0A2540"/>
-  <g transform="translate(70 58)">
-    <rect x="0" y="0" width="142" height="142" rx="24" fill="none" stroke="#AEBCC5" stroke-width="7"/>
-    <path d="M31 48L71 24L111 48L71 72Z" fill="#2DD4BF"/>
-    <path d="M31 72L71 48L111 72L71 96Z" fill="#FFFFFF"/>
-    <path d="M31 96L71 72L111 96L71 120Z" fill="#AEBCC5"/>
-    <path d="M71 25V119" stroke="#0A2540" stroke-width="5" stroke-linecap="round" opacity=".34"/>
-    <path d="M31 72L71 96L111 72" fill="none" stroke="#0A2540" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123B5E"/>
+      <stop offset="1" stop-color="#071A2C"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".52" stop-color="#AEBCC5"/>
+      <stop offset="1" stop-color="#F3F7FA"/>
+    </linearGradient>
+    <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#74FFF1"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="260" rx="34" fill="url(#panel)"/>
+  <rect x="8" y="8" width="744" height="244" rx="28" fill="none" stroke="url(#silver)" stroke-width="2" opacity=".55"/>
+  <g transform="translate(58 48)">
+    <rect x="0" y="0" width="164" height="164" rx="28" fill="#08243B" stroke="url(#silver)" stroke-width="8"/>
+    <path d="M34 57L82 29L130 57L82 85Z" fill="url(#aqua)"/>
+    <path d="M34 86L82 58L130 86L82 114Z" fill="#FFFFFF"/>
+    <path d="M34 115L82 87L130 115L82 143Z" fill="url(#silver)"/>
+    <path d="M82 31V141" stroke="#0A2540" stroke-width="6" stroke-linecap="round" opacity=".34"/>
+    <path d="M34 86L82 114L130 86" fill="none" stroke="#0A2540" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
   </g>
-  <text x="270" y="116" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="850" letter-spacing="2">LPS</text>
-  <text x="274" y="168" fill="#EAF7FA" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750" letter-spacing="8">COMPANY</text>
-  <path d="M274 194h246" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+  <text x="270" y="118" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="900" letter-spacing="1">LPS</text>
+  <text x="274" y="171" fill="#EAF7FA" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800" letter-spacing="9">COMPANY</text>
+  <path d="M274 198h252" stroke="url(#aqua)" stroke-width="5" stroke-linecap="round"/>
 </svg>
