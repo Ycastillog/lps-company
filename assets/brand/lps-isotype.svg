@@ -3,7 +3,7 @@
   <desc id="desc">Layered corporate isotype for LPS Company.</desc>
   <rect x="4" y="4" width="232" height="232" rx="28" fill="#0A2540"/>
   <rect x="20" y="20" width="200" height="200" rx="20" fill="none" stroke="#AEBCC5" stroke-width="7"/>
-  <path d="M58 88L120 52L182 88L120 124Z" fill="#2DD4BF"/>
+  <path d="M58 88L120 52L182 88L120 124Z" fill="#D8E1E8"/>
   <path d="M58 120L120 84L182 120L120 156Z" fill="#FFFFFF"/>
   <path d="M58 152L120 116L182 152L120 188Z" fill="#AEBCC5"/>
   <path d="M120 54V186" stroke="#0A2540" stroke-width="8" stroke-linecap="round" opacity=".34"/>

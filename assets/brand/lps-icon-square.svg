@@ -3,7 +3,7 @@
   <desc id="desc">Square corporate LPS Company favicon.</desc>
   <rect width="512" height="512" rx="96" fill="#0A2540"/>
   <rect x="72" y="72" width="368" height="368" rx="64" fill="none" stroke="#AEBCC5" stroke-width="18"/>
-  <path d="M146 190L256 124L366 190L256 256Z" fill="#2DD4BF"/>
+  <path d="M146 190L256 124L366 190L256 256Z" fill="#D8E1E8"/>
   <path d="M146 256L256 190L366 256L256 322Z" fill="#FFFFFF"/>
   <path d="M146 322L256 256L366 322L256 388Z" fill="#AEBCC5"/>
   <path d="M256 126V386" stroke="#0A2540" stroke-width="16" stroke-linecap="round" opacity=".34"/>

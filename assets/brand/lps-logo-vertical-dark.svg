@@ -4,7 +4,7 @@
   <rect width="520" height="640" rx="40" fill="#0A2540"/>
   <g transform="translate(140 76)">
     <rect x="0" y="0" width="240" height="240" rx="28" fill="none" stroke="#AEBCC5" stroke-width="8"/>
-    <path d="M58 88L120 52L182 88L120 124Z" fill="#2DD4BF"/>
+    <path d="M58 88L120 52L182 88L120 124Z" fill="#D8E1E8"/>
     <path d="M58 120L120 84L182 120L120 156Z" fill="#FFFFFF"/>
     <path d="M58 152L120 116L182 152L120 188Z" fill="#AEBCC5"/>
     <path d="M120 54V186" stroke="#0A2540" stroke-width="8" stroke-linecap="round" opacity=".34"/>
