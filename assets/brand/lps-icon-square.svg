@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">LPS Company favicon</title>
-  <desc id="desc">Square monogram favicon for LPS Company.</desc>
+  <desc id="desc">Readable square LPS Company favicon.</desc>
   <rect width="512" height="512" rx="96" fill="#0A2540"/>
-  <rect x="84" y="84" width="344" height="344" rx="42" fill="none" stroke="#AEBCC5" stroke-width="14"/>
-  <path d="M160 152v216h92" fill="none" stroke="#FFFFFF" stroke-width="42" stroke-linecap="square" stroke-linejoin="miter"/>
-  <path d="M252 368V152h88c50 0 82 29 82 73s-32 73-82 73h-50" fill="none" stroke="#FFFFFF" stroke-width="42" stroke-linecap="square" stroke-linejoin="miter"/>
-  <path d="M404 176h-78c-32 0-51 16-51 40 0 27 21 37 54 43l36 7c39 7 61 26 61 62 0 40-32 62-89 62h-77" fill="none" stroke="#2DD4BF" stroke-width="38" stroke-linecap="square" stroke-linejoin="miter"/>
+  <rect x="70" y="70" width="372" height="372" rx="56" fill="none" stroke="#AEBCC5" stroke-width="16"/>
+  <text x="256" y="276" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="144" font-weight="850" letter-spacing="-4">LPS</text>
+  <path d="M158 330h196" stroke="#2DD4BF" stroke-width="14" stroke-linecap="round"/>
 </svg>

@@ -25,6 +25,8 @@ Mini pagina tipo tarjeta para seleccionar empresas de LPS Company.
 - `assets/brand/lps-logo-concepts.svg`: tablero con cinco conceptos explorados.
 - `assets/brand/lps-brand-board.svg`: tablero visual de la marca.
 - `assets/brand/snackeria-official-logo.png`: logo oficial de Snackeria.
+- `assets/brand/snackeria-official-logo-transparent.png`: logo oficial de Snackeria con fondo transparente.
 - `assets/brand/luciano-wash-official-logo.png`: logo oficial de Luciano Wash.
+- `assets/brand/luciano-wash-official-logo-transparent.png`: logo oficial de Luciano Wash con fondo transparente.
 - `assets/lps-company-preview.jpg`: imagen para vista previa social.
 - `CNAME`: dominio personalizado para GitHub Pages.

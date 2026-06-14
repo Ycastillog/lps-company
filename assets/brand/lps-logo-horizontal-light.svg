@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
   <title id="title">LPS Company</title>
-  <desc id="desc">Premium monogram horizontal logo for LPS Company on light background.</desc>
+  <desc id="desc">Clean corporate horizontal logo for LPS Company on light background.</desc>
   <rect width="920" height="260" rx="32" fill="#F7FAFC"/>
-  <g transform="translate(64 38)">
-    <rect x="0" y="0" width="184" height="184" rx="24" fill="none" stroke="#AEBCC5" stroke-width="7"/>
-    <path d="M44 42v102h45" fill="none" stroke="#0A2540" stroke-width="20" stroke-linecap="square" stroke-linejoin="miter"/>
-    <path d="M88 144V42h44c25 0 41 14 41 35s-16 35-41 35h-25" fill="none" stroke="#0A2540" stroke-width="20" stroke-linecap="square" stroke-linejoin="miter"/>
-    <path d="M164 54h-39c-17 0-27 8-27 20 0 14 11 19 28 22l18 3c20 4 31 13 31 31 0 20-16 31-44 31H92" fill="none" stroke="#139E91" stroke-width="18" stroke-linecap="square" stroke-linejoin="miter"/>
+  <g transform="translate(70 58)">
+    <rect x="0" y="0" width="142" height="142" rx="24" fill="none" stroke="#AEBCC5" stroke-width="7"/>
+    <rect x="34" y="82" width="20" height="40" rx="3" fill="#0A2540"/>
+    <rect x="64" y="54" width="20" height="68" rx="3" fill="#139E91"/>
+    <rect x="94" y="32" width="20" height="90" rx="3" fill="#0A2540"/>
+    <path d="M34 122h80" stroke="#AEBCC5" stroke-width="7" stroke-linecap="round"/>
   </g>
-  <text x="306" y="114" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="1">LPS</text>
-  <text x="310" y="166" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">COMPANY</text>
-  <path d="M310 192h250" stroke="#139E91" stroke-width="4" stroke-linecap="round"/>
+  <text x="270" y="116" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="850" letter-spacing="2">LPS</text>
+  <text x="274" y="168" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750" letter-spacing="8">COMPANY</text>
+  <path d="M274 194h246" stroke="#139E91" stroke-width="4" stroke-linecap="round"/>
 </svg>

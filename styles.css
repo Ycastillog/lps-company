@@ -237,19 +237,19 @@ h1 {
   width: min(100%, 214px);
   height: auto;
   object-fit: contain;
-  border: 1px solid rgba(45, 212, 191, 0.14);
-  border-radius: 14px;
+  border: 0;
+  border-radius: 0;
 }
 
 .snack-logo {
-  width: min(100%, 246px);
-  padding: 8px 12px;
-  background: #ffffff;
+  width: min(100%, 250px);
+  filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.24));
 }
 
 .wash-logo {
-  width: min(100%, 196px);
+  width: min(100%, 210px);
   margin-top: -2px;
+  filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.22));
 }
 
 .division-node h2 {
@@ -602,11 +602,11 @@ footer a:focus-visible {
   }
 
   .snack-logo {
-    width: min(100%, 210px);
+    width: min(100%, 218px);
   }
 
   .wash-logo {
-    width: min(100%, 188px);
+    width: min(100%, 198px);
   }
 
   .wash-node .node-list {
