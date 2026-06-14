@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
   <title id="title">LPS Company</title>
-  <desc id="desc">Clean corporate horizontal logo for LPS Company on light background.</desc>
+  <desc id="desc">Premium corporate horizontal logo for LPS Company on light background.</desc>
   <rect width="920" height="260" rx="32" fill="#F7FAFC"/>
   <g transform="translate(70 58)">
     <rect x="0" y="0" width="142" height="142" rx="24" fill="none" stroke="#AEBCC5" stroke-width="7"/>
-    <rect x="34" y="82" width="20" height="40" rx="3" fill="#0A2540"/>
-    <rect x="64" y="54" width="20" height="68" rx="3" fill="#139E91"/>
-    <rect x="94" y="32" width="20" height="90" rx="3" fill="#0A2540"/>
-    <path d="M34 122h80" stroke="#AEBCC5" stroke-width="7" stroke-linecap="round"/>
+    <path d="M31 48L71 24L111 48L71 72Z" fill="#139E91"/>
+    <path d="M31 72L71 48L111 72L71 96Z" fill="#0A2540"/>
+    <path d="M31 96L71 72L111 96L71 120Z" fill="#AEBCC5"/>
+    <path d="M71 25V119" stroke="#F7FAFC" stroke-width="5" stroke-linecap="round" opacity=".42"/>
+    <path d="M31 72L71 96L111 72" fill="none" stroke="#F7FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".28"/>
   </g>
   <text x="270" y="116" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="850" letter-spacing="2">LPS</text>
   <text x="274" y="168" fill="#0A2540" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="750" letter-spacing="8">COMPANY</text>

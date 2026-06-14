@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
   <title id="title">LPS monogram isotype</title>
-  <desc id="desc">Monogram isotype for LPS Company.</desc>
+  <desc id="desc">Layered corporate isotype for LPS Company.</desc>
   <rect x="4" y="4" width="232" height="232" rx="28" fill="#0A2540"/>
   <rect x="20" y="20" width="200" height="200" rx="20" fill="none" stroke="#AEBCC5" stroke-width="7"/>
-  <path d="M58 54v132h58" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter"/>
-  <path d="M116 186V54h57c31 0 51 18 51 45s-20 45-51 45h-31" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter"/>
-  <path d="M210 68h-50c-20 0-32 10-32 25 0 17 13 23 34 27l22 4c24 4 38 16 38 38 0 25-20 39-55 39h-48" fill="none" stroke="#2DD4BF" stroke-width="22" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M58 88L120 52L182 88L120 124Z" fill="#2DD4BF"/>
+  <path d="M58 120L120 84L182 120L120 156Z" fill="#FFFFFF"/>
+  <path d="M58 152L120 116L182 152L120 188Z" fill="#AEBCC5"/>
+  <path d="M120 54V186" stroke="#0A2540" stroke-width="8" stroke-linecap="round" opacity=".34"/>
+  <path d="M58 120L120 156L182 120" fill="none" stroke="#0A2540" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
 </svg>

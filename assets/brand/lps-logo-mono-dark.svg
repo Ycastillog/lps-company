@@ -1,12 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
   <title id="title">LPS Company monochrome</title>
-  <desc id="desc">Monochrome LPS Company logo.</desc>
+  <desc id="desc">Monochrome corporate LPS Company logo.</desc>
   <rect width="920" height="260" rx="32" fill="#0A2540"/>
   <g transform="translate(64 38)">
     <rect x="0" y="0" width="184" height="184" rx="24" fill="none" stroke="#FFFFFF" stroke-width="7"/>
-    <path d="M44 42v102h45" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="square" stroke-linejoin="miter"/>
-    <path d="M88 144V42h44c25 0 41 14 41 35s-16 35-41 35h-25" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="square" stroke-linejoin="miter"/>
-    <path d="M164 54h-39c-17 0-27 8-27 20 0 14 11 19 28 22l18 3c20 4 31 13 31 31 0 20-16 31-44 31H92" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M44 68L92 40L140 68L92 96Z" fill="#FFFFFF"/>
+    <path d="M44 94L92 66L140 94L92 122Z" fill="#FFFFFF" opacity=".76"/>
+    <path d="M44 120L92 92L140 120L92 148Z" fill="#FFFFFF" opacity=".48"/>
+    <path d="M92 42V146" stroke="#0A2540" stroke-width="7" stroke-linecap="round" opacity=".28"/>
+    <path d="M44 94L92 122L140 94" fill="none" stroke="#0A2540" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".2"/>
   </g>
   <text x="306" y="114" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="1">LPS</text>
   <text x="310" y="166" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8">COMPANY</text>
