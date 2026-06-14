@@ -269,7 +269,7 @@ h1 {
   background:
     radial-gradient(circle at top left, rgba(9, 148, 221, 0.12), transparent 54%),
     linear-gradient(135deg, rgba(255, 255, 255, 0.064), transparent 72%),
-    rgba(255, 255, 255, 0.045);
+    rgba(2, 18, 32, 0.68);
 }
 
 .snackeria-node:hover {
@@ -303,8 +303,17 @@ h1 {
 }
 
 .snack-logo {
-  width: min(100%, 250px);
-  filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.24));
+  width: min(100%, 286px);
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(218, 239, 250, 0.78));
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.2),
+    0 0 30px rgba(94, 203, 255, 0.16);
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.22));
+  backdrop-filter: blur(10px);
 }
 
 .wash-logo {
@@ -678,7 +687,8 @@ footer a:focus-visible {
   }
 
   .snack-logo {
-    width: min(100%, 218px);
+    width: min(100%, 260px);
+    padding: 10px 13px;
   }
 
   .wash-logo {
