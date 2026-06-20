@@ -23,7 +23,10 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-MDM6HR97S5');
+      gtag('config', 'G-MDM6HR97S5', {
+        page_title: 'LPS Company | Pagina principal',
+        page_path: '/'
+      });
     </script>
     <link rel="canonical" href="https://lps-company.com/" />
     <link rel="icon" href="assets/brand/lps-company-official-icon.png?v=1" type="image/png" />
@@ -95,6 +98,8 @@
                 <a
                   class="action-button"
                   href="http://snackeriado.lps-company.com/"
+                  data-analytics-action="open_brand"
+                  data-analytics-brand="Snackeria"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Ver ubicaciones de Snackería"
@@ -107,6 +112,8 @@
                   <a
                     class="node-link"
                     href="mailto:snackeriado@lps-company.com?subject=Información%20Snackería"
+                    data-analytics-action="email_brand"
+                    data-analytics-brand="Snackeria"
                   >
                     snackeriado@lps-company.com
                   </a>
@@ -138,6 +145,8 @@
                 <a
                   class="action-button"
                   href="http://lucianowash.lps-company.com/"
+                  data-analytics-action="open_brand"
+                  data-analytics-brand="Luciano Wash"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Entrar a Luciano Wash"
@@ -147,7 +156,12 @@
                 </a>
                 <div class="brand-email">
                   <span>Luciano Wash</span>
-                  <a class="node-link" href="mailto:lucianowash@lps-company.com">
+                  <a
+                    class="node-link"
+                    href="mailto:lucianowash@lps-company.com"
+                    data-analytics-action="email_brand"
+                    data-analytics-brand="Luciano Wash"
+                  >
                     lucianowash@lps-company.com
                   </a>
                 </div>
@@ -168,5 +182,6 @@
         </footer>
       </section>
     </main>
+    <script src="script.js?v=2"></script>
   </body>
 </html>
